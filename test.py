@@ -7,7 +7,7 @@ class TestCalculator(unittest.TestCase):
 
     def setUp(self):
         # This method is run before each test, useful for setup code.
-        self.calc = calculator()
+        self.calc = Calculator()
 
     def test_calc(self):
         # Test addition functionality
